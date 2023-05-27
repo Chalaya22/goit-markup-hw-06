@@ -633,8 +633,21 @@ address {
   display: flex;
   flex-direction: column;
 }
-.form-name {
+.form-item {
   margin-bottom: 8px;
+}
+.modal-form-field {
+  /* margin-bottom: 8px; */
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
+}
+.modal-form-imput-wrapper {
+  display: block;
+  position: relative;
 }
 .modal-form-imput {
   width: 100%;
@@ -655,27 +668,6 @@ address {
 .modal-form-imput:focus + .modal-form-imput-icon {
   fill: #4d5ae5;
 }
-/* .modal-form-imput-description {
-  margin-bottom: 4px;
-  display: block;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 1.16;
-  color: #8e8f99;
-} */
-.modal-form-field {
-  /* margin-bottom: 8px; */
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  display: block;
-  margin-bottom: 4px;
-}
-
 .modal-form-imput-icon {
   position: absolute;
   top: 50%;
@@ -683,10 +675,7 @@ address {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-form-imput-wrapper {
-  display: block;
-  position: relative;
-}
+
 .modal-form-massage {
   resize: none;
   width: 100%;
