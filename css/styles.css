@@ -744,15 +744,21 @@ address {
   cursor: pointer;
   padding: 1px;
 }
-.contact-form-check-item {
+
+/* .modal-form-check .user-privacy-item {
+  background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
+} */
+/* .contact-form-check-item {
   opacity: 0;
-}
+} */
 .modal-form-check:checked + .contact-form-own-checkbox {
   background-color: #4d5ae5;
 }
-.modal-form-check:focus + .contact-form-own-checkbox {
+/* .modal-form-check:focus + .contact-form-own-checkbox {
   outline: 1px solid #4d5ae5;
-}
+} */
 
 .modal-form-check:checked + .contact-form-own-checkbox > .contact-form-check-item {
   opacity: 1;
