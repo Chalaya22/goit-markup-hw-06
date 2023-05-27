@@ -508,21 +508,23 @@
             </div>
           </div>
 
-          <label class="modal-form-field">
-            <span class="modal-form-imput-description">Email</span>
-            <spam class="modal-form-imput-wrapper">
+          <div class="form-item">
+            <label for="user-email" class="modal-form-field"> Email</label>
+            <div class="modal-form-imput-wrapper">
               <input
+                id="user-email"
                 type="email"
                 class="modal-form-imput"
                 name="user-email"
                 required
                 pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}+"
               />
-              <svg class="modal-form-imput-icon" aria-label="icon email" width="12" height="12">
+              <svg class="modal-form-imput-icon" aria-label="icon email" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
-            </spam>
-          </label>
+            </div>
+          </div>
+
           <label class="modal-form-field">
             <span class="modal-form-imput-description">Comment</span>
             <textarea
