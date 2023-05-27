@@ -814,6 +814,7 @@ address {
 }
 /* ===========footer form =============*/
 .fooer-form-container {
+  margin-left: 80px;
 }
 .footer-form-subscribe {
   margin-bottom: 16px;
@@ -825,6 +826,7 @@ address {
 }
 .footer-form-container {
   display: flex;
+  margin-left: 0;
 }
 .footer-label {
   margin-right: 24px;
