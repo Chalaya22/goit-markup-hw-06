@@ -760,15 +760,19 @@ address {
   outline: 1px solid #4d5ae5;
 } */
 
-.modal-form-check:checked + .contact-form-own-checkbox > .contact-form-check-item {
-  opacity: 1;
+.modal-form-check:checked + .modal-form-check-desc > .user-privacy-item {
+  background-color: #404bbf;
+  border: none;
   fill: #ffffff;
 }
 .modal-form-check {
   appearance: none;
   position: absolute;
 }
-
+.link-privacy-policy {
+  color: #4d5ae5;
+}
+/* button submit */
 .modal-type-submit {
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
