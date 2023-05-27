@@ -469,23 +469,28 @@
             <use href="./images/icons.svg#icon-vector"></use>
           </svg>
         </button>
+
+        <div class="modal-text">Leave your contacts and we will call you back</div>
         <form class="modal-form">
-          <label class="modal-form-field">
-            <span class="modal-form-imput-description">Name</span>
-            <spam class="modal-form-imput-wrapper">
-              <input
-                type="text"
-                class="modal-form-imput"
-                name="uzer-name"
-                required
-                pattern="[a-zA-Zа-яА-Я]+"
-                minlength="2"
-              />
-              <svg class="modal-form-imput-icon" aria-label="icon user" width="12" height="12">
-                <use href="./images/icons.svg#icon-user"></use>
-              </svg>
-            </spam>
-          </label>
+          <div class="form-name">
+            <label for="user-name" class="modal-form-field">
+              Name
+              <div class="modal-form-imput-wrapper">
+                <input
+                  id="user-name"
+                  type="text"
+                  class="modal-form-imput"
+                  name="uzer-name"
+                  required
+                  pattern="[a-zA-Zа-яА-Я]+"
+                  minlength="2"
+                />
+                <svg class="modal-form-imput-icon" aria-label="icon user" width="18" height="24">
+                  <use href="./images/icons.svg#icon-user"></use>
+                </svg>
+              </div>
+            </label>
+          </div>
 
           <label class="modal-form-field">
             <span class="modal-form-imput-description">Phone</span>
