@@ -722,6 +722,9 @@ address {
 .modal-form-check:checked + .modal-form-check-desc::before {
   background-color: #4d5ae5;
 } */
+.form-container-checkbox {
+  margin-bottom: 24px;
+}
 .modal-form-check-desc {
   font-size: 12px;
   line-height: 1.17;
@@ -764,6 +767,7 @@ address {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
+  border-color: #404bbf;
 }
 .modal-form-check {
   appearance: none;
