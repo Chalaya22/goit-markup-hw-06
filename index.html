@@ -525,27 +525,43 @@
             </div>
           </div>
           <div class="form-item-textaria">
-            <label for=" user-comment" class="modal-form-field">Comment</label>
+            <label for="user-comment" class="modal-form-field">Comment</label>
             <textarea
-              id=" user-comment"
-              name=" user-comment"
+              id="user-comment"
+              name="user-comment"
               class="modal-form-massage"
               placeholder="Text input"
             ></textarea>
           </div>
 
-          <label class="modal-form-check-desc">
-            <input type="checkbox" name="user-police" class="modal-form-check" />
-            <svg
-              class="contact-form-own-checkbox"
-              aria-label="icon checkbox"
-              width="16"
-              height="16"
-            >
-              <use class="contact-form-check-item" href="./images/icons.svg#icon-checkmark"></use>
-            </svg>
-            I accept the terms and conditions of the <a href="">Privacy Policy</a></label
-          >
+          <div class="form-item-checkbox">
+            <input
+              id="user-privacy"
+              type="checkbox"
+              name="user-privacy"
+              class="modal-form-check visually-hidden"
+              value="true"
+            />
+
+            <label for="user-privacy" class="modal-form-check-desc">
+              <span class="user-privacy-item">
+                <svg
+                  class="contact-form-own-checkbox"
+                  aria-label="icon checkbox"
+                  width="10"
+                  height="8"
+                >
+                  <use
+                    class="contact-form-check-item"
+                    href="./images/icons.svg#icon-checkmark"
+                  ></use>
+                </svg>
+              </span>
+
+              I accept the terms and conditions of the
+            </label>
+          </div>
+
           <button type="submit" class="modal-type-submit">Send</button>
         </form>
       </div>
