@@ -742,6 +742,8 @@ address {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-form-own-checkbox {
@@ -829,10 +831,9 @@ address {
 .footer-form-container {
   display: flex;
   margin-left: 0;
+  gap: 24px;
 }
-.footer-label {
-  margin-right: 24px;
-}
+
 .footer-form-email {
   width: 264px;
   height: 40px;
