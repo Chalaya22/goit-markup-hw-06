@@ -747,10 +747,10 @@ address {
 }
 
 .contact-form-own-checkbox {
-  border: 1px solid #8e8f99;
+  /* border: 1px solid #8e8f99;
   border-radius: 2px;
   cursor: pointer;
-  padding: 1px;
+  padding: 1px; */
 }
 
 /* .modal-form-check .user-privacy-item {
@@ -760,6 +760,13 @@ address {
 } */
 .contact-form-check-item {
   opacity: 0;
+}
+.modal-form-check:checked + .modal-form-check-desc > .user-privacy-item {
+  opacity: 1;
+  background-color: #404bbf;
+  border: none;
+  border-color: #404bbf;
+  fill: #ffffff;
 }
 
 .modal-form-check:checked
